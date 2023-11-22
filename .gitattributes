@@ -1,6 +1,6 @@
 * text=auto
 
-*.blade.php diff=laravel
+*.blade.php diff=html
 *.css diff=css
 *.html diff=html
 *.md diff=markdown
@@ -9,3 +9,8 @@
 /.github export-ignore
 CHANGELOG.md export-ignore
 .styleci.yml export-ignore
+
+*.js linguist-detectable=false
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.php linguist-detectable=true
